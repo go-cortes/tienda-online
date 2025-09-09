@@ -1,0 +1,249 @@
+/* Estilos personalizados para la tienda de mascotas */
+
+/* Variables CSS - Paleta de colores */
+
+:root {
+    --primary-pet: #ff6b35;
+    --secondary-pet: #4ecdc4;
+    --accent-pet: #45b7d1;
+    --warm-pet: #f9ca24;
+    --soft-pet: #f8f9fa;
+    --dark-pet: #2c3e50;
+}
+
+/* Estilos generales del cuerpo */
+body {
+    padding-top: 76px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e3f2fd 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Tarjetas de producto */
+.card {
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.1);
+    border: none;
+    height: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+/* Efecto hover en tarjetas */
+.card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 12px 30px rgba(255, 107, 53, 0.2);
+    border: 2px solid var(--primary-pet);
+}
+
+/* Imágenes de producto */
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+    border-radius: 0;
+    transition: transform 0.3s ease;
+}
+
+/* Efecto zoom en imagen al hacer hover */
+.card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+/* Sección hero */
+.hero-section {
+    background: linear-gradient(135deg, #ff6b35 0%, #4ecdc4 50%, #45b7d1 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="paw" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="2" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23paw)"/></svg>');
+    opacity: 0.3;
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-section h1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.hero-section p {
+    color: rgba(255,255,255,0.9);
+    font-size: 1.2rem;
+}
+
+.hero-image img {
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    border: 4px solid rgba(255,255,255,0.2);
+}
+
+/* Tarjetas de características */
+.feature-card {
+    background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(255, 107, 53, 0.1);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.feature-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 107, 53, 0.1), transparent);
+    transition: left 0.5s ease;
+}
+
+.feature-card:hover::before {
+    left: 100%;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 15px 35px rgba(255, 107, 53, 0.2);
+    border-color: var(--primary-pet);
+}
+
+.feature-card i {
+    background: linear-gradient(45deg, var(--primary-pet), var(--secondary-pet));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Botones personalizados */
+.btn-producto {
+    background: linear-gradient(45deg, var(--primary-pet), var(--secondary-pet));
+    border: none;
+    transition: all 0.3s ease;
+    border-radius: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+}
+
+.btn-producto:hover {
+    background: linear-gradient(45deg, var(--secondary-pet), var(--accent-pet));
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, var(--primary-pet), var(--secondary-pet));
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, var(--secondary-pet), var(--accent-pet));
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
+}
+
+/* Navbar personalizado */
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    background: linear-gradient(45deg, var(--primary-pet), var(--secondary-pet));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--primary-pet);
+    transform: translateY(-1px);
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--primary-pet);
+    font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(45deg, var(--primary-pet), var(--secondary-pet));
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover::after,
+.navbar-dark .navbar-nav .nav-link.active::after {
+    width: 100%;
+}
+
+/* Sección de productos */
+#lista-productos {
+    position: relative;
+}
+
+#lista-productos::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(45deg, var(--primary-pet), var(--secondary-pet));
+    border-radius: 2px;
+}
+
+/* Ajustes responsive */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-section .lead {
+        font-size: 1.1rem;
+    }
+    
+    .card-img-top {
+        height: 180px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-section {
+        text-align: center;
+    }
+    
+    .hero-image {
+        margin-top: 2rem;
+    }
+}

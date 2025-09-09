@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administración</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+        }
+        .navbar {
+            background: #333;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar h1 {
+            margin: 0;
+        }
+        .navbar button {
+            background: #dc3545;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .navbar button:hover {
+            background: #c82333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .btn {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
+        .btn-success {
+            background: #28a745;
+        }
+        .btn-danger {
+            background: #dc3545;
+        }
+        .btn-warning {
+            background: #ffc107;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background: #f8f9fa;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>🏪 Panel de Administración</h1>
+        <div>
+            <button onclick="irInicio()" style="background: #28a745; margin-right: 10px;">🏠 Ir al Inicio</button>
+            <button onclick="cerrarSesion()">Cerrar Sesión</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <h2>📦 Gestión de Productos</h2>
+            <button class="btn btn-success" onclick="mostrarFormulario()">+ Nuevo Producto</button>
+            <button class="btn" onclick="cargarProductos()">🔄 Recargar</button>
+        </div>
+
+        <div class="card hidden" id="formulario">
+            <h3 id="tituloFormulario">Nuevo Producto</h3>
+            <form id="productForm">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="precio">Precio:</label>
+                    <input type="number" id="precio" required>
+                </div>
+                <div class="form-group">
+                    <label for="descripcion">Descripción:</label>
+                    <textarea id="descripcion" rows="3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="categoria">Categoría:</label>
+                    <select id="categoria" required>
+                        <option value="">Seleccionar...</option>
+                        <option value="alimento">Alimento</option>
+                        <option value="juguete">Juguete</option>
+                        <option value="accesorio">Accesorio</option>
+                        <option value="higiene">Higiene</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="imagen">URL de Imagen:</label>
+                    <input type="url" id="imagen" required>
+                </div>
+                <button type="submit" class="btn">Guardar</button>
+                <button type="button" class="btn btn-warning" onclick="cancelarFormulario()">Cancelar</button>
+            </form>
+        </div>
+
+        <div class="card">
+            <h3>📋 Lista de Productos</h3>
+            <div id="productosLista">
+                <p>Cargando productos...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let productos = [];
+        let editandoId = null;
+
+        // Verificar login
+        if (localStorage.getItem('adminLogueado') !== 'true') {
+            window.location.href = 'login.html';
+        }
+
+        // Cargar productos al iniciar
+        cargarProductos();
+
+        function cargarProductos() {
+            const guardados = localStorage.getItem('productos');
+            if (guardados) {
+                productos = JSON.parse(guardados);
+            } else {
+                productos = [];
+            }
+            mostrarProductos();
+        }
+
+        function mostrarProductos() {
+            const lista = document.getElementById('productosLista');
+            if (productos.length === 0) {
+                lista.innerHTML = '<p>No hay productos. Crea uno nuevo.</p>';
+                return;
+            }
+
+            let html = '<table><tr><th>ID</th><th>Nombre</th><th>Precio</th><th>Categoría</th><th>Acciones</th></tr>';
+            productos.forEach(producto => {
+                html += `
+                    <tr>
+                        <td>${producto.id}</td>
+                        <td>${producto.nombre}</td>
+                        <td>$${producto.precio.toLocaleString()}</td>
+                        <td>${producto.categoria}</td>
+                        <td>
+                            <button class="btn btn-warning" onclick="editarProducto(${producto.id})">Editar</button>
+                            <button class="btn btn-danger" onclick="eliminarProducto(${producto.id})">Eliminar</button>
+                        </td>
+                    </tr>
+                `;
+            });
+            html += '</table>';
+            lista.innerHTML = html;
+        }
+
+        function mostrarFormulario() {
+            document.getElementById('formulario').classList.remove('hidden');
+            document.getElementById('tituloFormulario').textContent = 'Nuevo Producto';
+            editandoId = null;
+            document.getElementById('productForm').reset();
+        }
+
+        function cancelarFormulario() {
+            document.getElementById('formulario').classList.add('hidden');
+            editandoId = null;
+        }
+
+        function editarProducto(id) {
+            const producto = productos.find(p => p.id === id);
+            if (producto) {
+                document.getElementById('nombre').value = producto.nombre;
+                document.getElementById('precio').value = producto.precio;
+                document.getElementById('descripcion').value = producto.descripcion;
+                document.getElementById('categoria').value = producto.categoria;
+                document.getElementById('imagen').value = producto.imagen;
+                editandoId = id;
+                document.getElementById('tituloFormulario').textContent = 'Editar Producto';
+                document.getElementById('formulario').classList.remove('hidden');
+            }
+        }
+
+        function eliminarProducto(id) {
+            if (confirm('¿Eliminar este producto?')) {
+                productos = productos.filter(p => p.id !== id);
+                localStorage.setItem('productos', JSON.stringify(productos));
+                mostrarProductos();
+            }
+        }
+
+        function irInicio() {
+            window.location.href = '../index.html';
+        }
+
+        function cerrarSesion() {
+            if (confirm('¿Cerrar sesión?')) {
+                localStorage.removeItem('adminLogueado');
+                window.location.href = 'login.html';
+            }
+        }
+
+        // Manejar formulario
+        document.getElementById('productForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const nombre = document.getElementById('nombre').value;
+            const precio = parseFloat(document.getElementById('precio').value);
+            const descripcion = document.getElementById('descripcion').value;
+            const categoria = document.getElementById('categoria').value;
+            const imagen = document.getElementById('imagen').value;
+
+            if (editandoId) {
+                // Editar producto existente
+                const index = productos.findIndex(p => p.id === editandoId);
+                productos[index] = {
+                    id: editandoId,
+                    nombre,
+                    precio,
+                    descripcion,
+                    categoria,
+                    imagen
+                };
+            } else {
+                // Nuevo producto
+                const nuevoId = productos.length > 0 ? Math.max(...productos.map(p => p.id)) + 1 : 1;
+                productos.push({
+                    id: nuevoId,
+                    nombre,
+                    precio,
+                    descripcion,
+                    categoria,
+                    imagen
+                });
+            }
+
+            localStorage.setItem('productos', JSON.stringify(productos));
+            mostrarProductos();
+            cancelarFormulario();
+        });
+    </script>
+</body>
+</html>
