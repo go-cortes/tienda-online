@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="00ADBE54-19CA-E02D-7009-2EA46D7C0C25" containerWithKeyObject="91F8751A-CF0E-DBDA-A03E-BC32788B3BCC" localFKIndex="6D563213-B241-5FF6-61B0-F9B7CEBA891F" name="F_SAT_SHIFT_CODE_FK">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>BA08C649-31F2-888B-FDEA-0A295F70BE0C</importedID>
+<referredTableLongName>F_SHIFTS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1647A63A-5701-C5B0-91A9-69F1C4E6DB97</referredTableID>
+<keyObject>95C67871-3E77-A9C3-98B4-DCFE3C1DD683</keyObject>
+<referredKeyID>95C67871-3E77-A9C3-98B4-DCFE3C1DD683</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
