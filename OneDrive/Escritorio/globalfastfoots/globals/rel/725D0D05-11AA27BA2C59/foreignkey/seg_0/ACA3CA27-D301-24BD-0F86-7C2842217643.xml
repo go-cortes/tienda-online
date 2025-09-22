@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ACA3CA27-D301-24BD-0F86-7C2842217643" containerWithKeyObject="1EB7298B-4DCC-4487-49A2-0FEB99D1ADF6" localFKIndex="7B3DAAAD-4960-19D8-677E-6163C6364F4A" name="F_STF_ROL_ID_ACTUAL_FK">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+<importedID>F8EB7337-DB77-D06B-A421-7A417D107476</importedID>
+<referredTableLongName>F_ROLES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>990A56B7-66F9-4E8F-4042-5ACD8B31B2E8</referredTableID>
+<keyObject>A6FBB16E-4695-AB85-A971-4795BAB69509</keyObject>
+<referredKeyID>A6FBB16E-4695-AB85-A971-4795BAB69509</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ROL_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

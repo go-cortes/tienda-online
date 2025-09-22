@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3DDC2F17-740A-4599-711B-0D2AC22A674F" containerWithKeyObject="BD57C8EE-ABC9-4C02-9916-4EE34EF67ABF" localFKIndex="EA297258-5375-4A87-1EC2-A3AF27CC25A7" name="F_FIM_REGULAR_CODE_FK">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+<importedID>AEE1424C-9157-EF39-0306-F9C6F56EA4DC</importedID>
+<referredTableLongName>F_REGULAR_MENUS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4DC6B622-DF31-E8F0-5FBF-CB1F3D7EB667</referredTableID>
+<keyObject>93179F24-F7BF-66D1-18F5-0103387E7B5B</keyObject>
+<referredKeyID>93179F24-F7BF-66D1-18F5-0103387E7B5B</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

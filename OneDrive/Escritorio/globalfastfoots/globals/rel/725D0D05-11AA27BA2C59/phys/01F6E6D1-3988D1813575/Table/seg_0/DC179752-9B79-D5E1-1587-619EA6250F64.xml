@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="F_HISTORIAL_PUESTOS" directorySegmentName="seg_0" id="DC179752-9B79-D5E1-1587-619EA6250F64">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="STAFF_ID" id="19C56078-D0D3-5114-72DD-2BF11D3DC109">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_INICIO" id="1A6F4C32-B39A-299E-0109-0DFE8D0AC03C">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUCURSAL_ID" id="30F961DE-4360-6C73-977D-6ACF029586A3">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_FIN" id="35912077-B26A-0DC4-22FB-50AE201EF0CE">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROL_ID" id="46F0582A-2397-C1A1-4238-8372B35EC8A3">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HISTORIAL_ID" id="F23A3882-211C-EE07-23FE-71C35EDFD1BD">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="F_HP_ROL_ID_FK" id="440B5014-F634-91EA-CC37-D40FD3337338">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="F_HP_SUCURSAL_ID_FK" id="A75A2A37-F0F0-E73B-6988-3621CE022A06">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="F_HP_STAFF_ID_FK" id="A83A92CA-E95A-922A-8B1E-999F8D7D9082">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="F_HP_ID_PK" id="3569F9DD-E4CD-F986-603C-41AA90FFF620">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

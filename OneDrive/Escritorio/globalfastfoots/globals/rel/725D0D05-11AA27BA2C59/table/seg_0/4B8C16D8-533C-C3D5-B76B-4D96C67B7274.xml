@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B8C16D8-533C-C3D5-B76B-4D96C67B7274" name="F_ORDER_LINES">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+<importedID>857D5816-53E7-71DA-F54E-2D3BB4680A61</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_NUMBER" id="049D2CCE-EDE9-62D0-40C1-696380C15DFB">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Made up of]]></commentInRDBMS>
+<ownerDesignName>globals</ownerDesignName>
+<importedID>5E0D92BF-C4B3-B9D3-6778-92A830AF476B</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A20A77CD-734E-0D1B-6F67-BCDA81EBFEC0" referredColumn="2DC84D37-7108-8C02-F0AE-B03291C4DED6"/>
+</associations>
+</Column>
+<Column name="FOOD_ITEM_NUMBER" id="E9339274-2021-1622-FBB7-DFEE219DC3A4">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+<importedID>B15D3B35-31AD-9776-E1C9-56AC227BFA83</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02CDD9EE-3CD1-07CA-BE7D-C6C9491BB383" referredColumn="AD52AAE8-2FAA-E1DD-403C-E209BAFEC2AB"/>
+</associations>
+</Column>
+<Column name="QUANTITY" id="4D04E48E-C563-7C34-86F5-165D68E3899D">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+<importedID>504D80CE-BF45-64F5-3CF5-516BDB34C053</importedID>
+<use>0</use>
+<domain>F6CF6C6E-9EA3-FE80-B65E-A5207381E8EA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_OLE_QUANTITY_NN</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36D13EB2-66D8-2132-85BE-8C27CB59432D" name="F_OLE_PK">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+<importedID>F72618EF-1503-4592-F19D-A2B787C1324E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="049D2CCE-EDE9-62D0-40C1-696380C15DFB"/>
+<colUsage columnID="E9339274-2021-1622-FBB7-DFEE219DC3A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1A19B2E-7546-5535-7C42-DB6641D00FA7" name="F_OLE_FOOD_ITEM_NUMBER_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9339274-2021-1622-FBB7-DFEE219DC3A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="120F446C-B958-4BD0-6658-A4DA0971137F" name="F_OLE_ORDER_NUMBER_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="049D2CCE-EDE9-62D0-40C1-696380C15DFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

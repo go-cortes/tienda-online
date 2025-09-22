@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFF65B9A-3C46-1CA2-61C6-C99A7CCCDF4A" name="F_ORDER_TAKERS">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+<importedID>6EF8662E-2501-1AD3-B0EE-050B43618882</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STAFF_ID" id="048C0E9A-7BF4-B98D-E4C4-47146E4E29E8">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Supervised by]]></commentInRDBMS>
+<ownerDesignName>globals</ownerDesignName>
+<importedID>C0AB4993-1395-3ECF-5277-EF4EF29CE4A4</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05F59815-DE55-E419-AEB4-573B46353170" referredColumn="9AFB269F-E435-A015-224C-C698D4963456"/>
+</associations>
+</Column>
+<Column name="OVERTIME_RATE" id="D40BF112-16B5-E3C3-07D7-7DEF9502653A">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+<importedID>F7A90C70-06BF-ED7F-8142-C323F4EF4DB4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>F6BDF95E-9B7C-AFAB-BB1B-F31999A8D514</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRAINING" id="8B9224E6-6220-533B-25D0-36875F2A1AC4">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+<importedID>541A17CF-1608-BDE4-081A-0258D7C109AE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>850A8CDF-AF80-27AA-9DAA-DE3D85C4B610</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFBBF2C8-9906-B27A-5C21-11CCF88CB385" name="F_OT_STAFF_ID_PK">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+<importedID>D5C32891-B1CC-9E22-DAE2-A53454FF1E27</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="048C0E9A-7BF4-B98D-E4C4-47146E4E29E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73DD04BA-EA33-C4A2-4AD1-D1F33472C471" name="F_OT_STAFF_ID_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="048C0E9A-7BF4-B98D-E4C4-47146E4E29E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="F_STF_SUCURSAL_ID_FK" directorySegmentName="seg_0" id="159171F2-09EC-1807-593E-FF7EDBAE358E">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>8315F4C5-5971-ACA0-BD72-2BC0874C8067</generatorID>
+<ownerDesignName>globals</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<sourcePk>5E70885F-8E38-B8F2-C83E-9796C21891BC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ACF5D550-105C-86FB-90FF-E4AFB27132FD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B60CFB6F-61BF-A4AC-89DB-39CEBB769DFC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

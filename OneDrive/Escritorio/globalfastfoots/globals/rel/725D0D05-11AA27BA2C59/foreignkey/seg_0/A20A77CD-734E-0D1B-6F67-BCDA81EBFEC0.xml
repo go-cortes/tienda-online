@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A20A77CD-734E-0D1B-6F67-BCDA81EBFEC0" containerWithKeyObject="4B8C16D8-533C-C3D5-B76B-4D96C67B7274" localFKIndex="120F446C-B958-4BD0-6658-A4DA0971137F" name="F_OLE_ORDER_NUMBER_FK">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals</ownerDesignName>
+<importedID>1F274647-BDD0-2A51-1AA9-4D3BB68BCF1C</importedID>
+<referredTableLongName>F_ORDERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>00AAAC44-DBB5-5315-FAF4-E8489F9B9CE2</referredTableID>
+<keyObject>519ECA80-9666-8185-52EB-EB8C1F6877FF</keyObject>
+<referredKeyID>519ECA80-9666-8185-52EB-EB8C1F6877FF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ORDER_NUMBER</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

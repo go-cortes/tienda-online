@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="F_OLE_FOOD_ITEM_NUMBER_FK" directorySegmentName="seg_0" id="BF77A9E4-05B0-2304-818A-B70DDE66D014">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>02CDD9EE-3CD1-07CA-BE7D-C6C9491BB383</generatorID>
+<ownerDesignName>globals</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<sourcePk>8C0999C4-0E74-46F1-7DE3-2B93358A2421</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>919DB1B0-14F8-63AC-C96D-CDD58AE60B24</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E996651B-ECFA-CB47-38C3-3CBFDF53B383</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
