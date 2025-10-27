@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1BB3B04-0995-A0CC-72F9-99856975FF27" name="SHIFT_ASSIGNMENT">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:55 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>F3A86B72-D86F-2ECE-C384-1D99E612DDBC</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SHIFT_ASSIGN_ID" id="E7BA5838-86CC-CD43-7BC6-587396E5D2B5">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>16405183-31A1-ADDE-255E-C8D3763E855F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C6BABAF9-91F0-3275-8974-57B14FD037EB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STAFF_ID" id="C1BAF890-A3EC-D806-8657-E1C189091E9F">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>8F3631FD-BB84-0CDB-E5EA-809C04B16B3B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C6BABAF9-91F0-3275-8974-57B14FD037EB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7295BAD0-FD7F-9904-9D98-40B541BBA985" referredColumn="A745F91A-650B-F705-BEAB-43CCED341012"/>
+</associations>
+</Column>
+<Column name="SHIFT_CODE" id="086E8AC3-634E-CEA6-A6B3-080BD2AC5D93">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>E3F33216-CA14-361F-4E6F-554F6FE1A284</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C6BABAF9-91F0-3275-8974-57B14FD037EB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE020737-6D94-5A08-CC1A-B08D0F1CE594" referredColumn="E8B225A6-1CE1-9862-47B4-E357F36210A5"/>
+</associations>
+</Column>
+<Column name="SHIFT_ASSIGN_DATE" id="7BE50499-CB66-F54C-CD5F-39AB487CF052">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>83E068B4-BB2C-99CF-4CD7-E4FC9492900B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>F81763B0-B85F-18B6-2A16-7F23DD6CCF5F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E7A0133-4ABC-100C-103F-AD0D39F27E86" name="SHIFT_ASSIGNMENT_PK">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>59ABD871-3CA9-AA50-A8D2-DB0144FC2387</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7BA5838-86CC-CD43-7BC6-587396E5D2B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="157324B4-67AA-C0DE-24E6-75FBB38DD439" name="fk_shift_code">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="086E8AC3-634E-CEA6-A6B3-080BD2AC5D93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A7C6E74-AC72-8F66-2A8A-394D86826790" name="fk_shift_staff">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1BAF890-A3EC-D806-8657-E1C189091E9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

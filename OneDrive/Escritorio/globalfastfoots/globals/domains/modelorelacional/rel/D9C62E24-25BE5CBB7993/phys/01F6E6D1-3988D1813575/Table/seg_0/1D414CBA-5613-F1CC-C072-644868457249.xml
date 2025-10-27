@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="F_SHIFT_ASSIGNMENTS" directorySegmentName="seg_0" id="1D414CBA-5613-F1CC-C072-644868457249">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SHIFT_ASSIGN_DATE" id="38F5E9C2-918F-687D-5786-1A7E4F173643">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STAFF_ID" id="5520693F-CBB7-E010-718B-F7D31EF4EFBC">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHIFT_CODE" id="C9BB9CCF-C0D0-F458-07D2-9E3A8C59E804">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="F_SAT_STAFF_ID_FK" id="E1852870-C407-456A-74C1-010E29B51700">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:44 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="F_SAT_SHIFT_CODE_FK" id="E7A65116-7DD1-C1BF-034B-0B6C257296ED">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:44 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="F_SAT_PK" id="419FEC76-8862-9E24-55B0-83DDBDC866F9">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

@@ -9,5 +9,8 @@
 <designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="5DCFD6BC-2CA4-874C-4210-CD2195025FEF">
 <designStoragePath>C:\deepseek_sql_20250922_220aae</designStoragePath>
 </designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="617D4CFF-24DA-9F83-55B4-F943640CFE19">
+<designStoragePath>C:\Relacional</designStoragePath>
+</designDescr>
 </usedDesignStorageDescriptors>
 </OSDM_Design>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B643D16-1E0C-ECFE-AE91-D4A452AC6AA7" name="CUSTOMER">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:55 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>6C241CAC-3ECC-5D70-2B57-14F0C05C4D8E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="14A7AEFB-F7E4-CA7C-C53D-76DCAC250796">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:55 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>25ABEC21-60F5-CF6E-FE97-F30741454A8D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C6BABAF9-91F0-3275-8974-57B14FD037EB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" id="0BB3C30B-65AF-BCDE-E096-CDEA5C85EFFF">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:55 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>3A9431AF-7059-5201-3BA1-26A66424FD54</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BD6F443F-F6F0-83A1-AAAB-C605B125AEE1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="5A6F5182-B922-5A08-E570-71C117AA1053">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:55 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>257C8F39-7F1B-17FA-2F6E-3C789C73B107</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BD6F443F-F6F0-83A1-AAAB-C605B125AEE1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="4D46F23E-1445-368A-965F-ED7A96F0E602">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:55 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>AD9D8BF0-4353-EC96-E66A-61ECD0EEFC14</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3AC89B9A-49D1-5224-B5FB-1C63BE2F3B96</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="09E40461-947A-A031-8DE3-5847182E6160">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:55 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>3FD40C9F-B288-1030-9FFA-EC06503CF723</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BD6F443F-F6F0-83A1-AAAB-C605B125AEE1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE" id="4961219F-3AEE-0B88-A6FD-D142C5147B39">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:55 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>A6E22BC0-8CE8-1D2A-38A8-166FB6DC0E07</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BD6F443F-F6F0-83A1-AAAB-C605B125AEE1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZIP" id="0005D65E-996D-BFC0-2275-C2CAD073298C">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:55 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>D3272FE6-691F-558D-4F78-9599D2B6014A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C9AFA0DD-94D3-BBE2-11AC-F162F3167A78</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="EADC0C32-6085-1D3F-AC53-9E7FFA42E0D5">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:55 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>252AB634-41D0-DF63-6AA5-F76506C4A830</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4DD06D8E-97D6-8656-D078-6CE1C9EC1DE8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D469C86E-26C0-CE6F-4599-19FDCAFA1422" name="CUSTOMER_PK">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:55 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>973B85DB-A027-5079-E489-3C65FADD525D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14A7AEFB-F7E4-CA7C-C53D-76DCAC250796"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

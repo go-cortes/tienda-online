@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A40BEF73-55B2-A331-47D5-729F29DAEC09" name="F_MANAGERS">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+<importedID>592CA44C-2879-08B0-F2CE-8AB0FFBE73E0</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STAFF_ID" id="C46E0431-1AF0-B3E8-32CA-F01CC98B51FA">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Supervise]]></commentInRDBMS>
+<ownerDesignName>globals2</ownerDesignName>
+<importedID>D461B914-D498-4F4A-AFC7-17AABF113DF4</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C1EB733-578B-3A23-BA0B-CF6CF6D32BE5" referredColumn="9AFB269F-E435-A015-224C-C698D4963456"/>
+</associations>
+</Column>
+<Column name="BUDGET" id="2BFB8C21-FD3E-5D0B-A598-D98488A88B38">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+<importedID>BE0EE669-E573-126E-D694-31B4FEF4CC18</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>9F702728-8CD9-2061-2A4B-D79175F750AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TARGET_REVENUE" id="C8E8BCF8-CCA4-9128-BF71-E58D156578A7">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+<importedID>D10F9034-0A7E-22EE-32E1-EC09E812E78C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>9F702728-8CD9-2061-2A4B-D79175F750AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MANAGER_ID" id="C706C045-AE61-2803-4C00-1A2AC9E1E3DB">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+<importedID>310E300B-62BC-7934-1B2C-000583D1D5C9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="733DE194-CCBC-C6EC-8298-8DD7D3892015" referredColumn="9AFB269F-E435-A015-224C-C698D4963456"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87FA6E72-DF0B-9C81-5478-C335142F4F35" name="F_MGR_STAFF_ID_PK">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+<importedID>AB21A477-25AC-0651-1015-A44FCBCB0180</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C46E0431-1AF0-B3E8-32CA-F01CC98B51FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03A3492A-2892-A66B-7837-A5CCEB455E25" name="F_MGR_MANAGER_ID_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C706C045-AE61-2803-4C00-1A2AC9E1E3DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43D96CEE-FF80-4BF6-1DC5-198B77F713D9" name="F_MGR_STAFF_ID_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C46E0431-1AF0-B3E8-32CA-F01CC98B51FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="F_FOOD_ITEMS" directorySegmentName="seg_0" id="BFF8F72A-C992-3410-8BF3-2706A88F9C71">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRICE" id="0C0D3CF3-D06D-6D44-C66F-2C12369E4548">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROMO_CODE" id="2D822F21-B103-39AA-C7EA-DE3FA1B8E718">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="4E50AD93-7D09-481A-18EC-9FC743920AEA">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FOOD_ITEM_NUMBER" id="65F06946-6976-8CD2-128B-599179A4C23D">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGULAR_CODE" id="6CDBFCBE-EC2C-BDA0-0CE2-6D220DDFA12E">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="F_FIM_REGULAR_CODE_FK" id="5F9F01C9-A297-FA54-0EE3-55B0DCB4ADEA">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="F_FIM_PROMO_CODE_FK" id="6A85EDA4-4C03-C244-6FCE-967EE759396E">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="F_FIM_FOOD_ITEM_NUMBER_PK" id="852A2AA8-A57B-F11E-C7F8-AC5B6D53E097">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

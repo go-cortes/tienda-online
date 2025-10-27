@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="F_CUSTOMERS" directorySegmentName="seg_0" id="C58BE560-9D4A-480D-C3A8-825A3764BD35">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LAST_NAME" id="02C3D8D1-693E-F5EA-F766-6140DDE18825">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CITY" id="09430619-F709-CF35-5C4C-491222AB6459">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIRST_NAME" id="2BBC01BE-5C10-0FF0-6A17-E0BE885D88CC">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="31F84E85-28A2-87D3-3548-24217643F3A2">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDRESS" id="3600302E-ECC3-B924-04F5-B262076977E0">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE_NUMBER" id="713AB239-63EB-ADDF-1049-4879C97B4E0C">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATE" id="97882218-8491-AADE-3611-77FAE1A1AEB9">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ZIP" id="E97E12B3-1FF7-A1BA-59A0-48E7FC26F81C">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="F_CSR_ID_PK" id="E7EDED9A-B6F8-C764-4514-26F07EC9C8B1">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36A7E28E-0B94-954C-423F-EFF3945BC125" name="F_ROLES">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>70854065-2CC8-9BB4-CC2E-D7041CE92FA1</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ROL_ID" id="2D59AD4D-E55E-5089-7A83-BF81F82DB7E1">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>9E493EEB-69D3-0CBE-FB80-1C8FD7C84616</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ROL" id="B86D22AE-77A0-7D99-3F44-802C48039405">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>0B270B05-37F5-81DE-2339-C7D5396FAECD</importedID>
+<use>0</use>
+<domain>850A8CDF-AF80-27AA-9DAA-DE3D85C4B610</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_ROL_NOMBRE_NN</notNullConstraintName>
+</Column>
+<Column name="DESCRIPCION" id="12F28B6D-5EAE-F9A6-0ADD-E215D37E23DD">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>9DA569FC-B67A-5C92-8F7D-119487900A23</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>827A68D7-2170-40A3-3248-B66A225B5255</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUELDO_MINIMO" id="742F1B37-8E34-DBFC-A9DD-8803B84EB7E3">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>A9C44E6A-480E-9D17-F1AC-3014F01142E2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>9F702728-8CD9-2061-2A4B-D79175F750AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUELDO_MAXIMO" id="0F6E3552-7DE6-AE2E-623B-21B85D6E4A43">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>1B44B2B8-5C0C-6D49-99F1-858CB91EB7F7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>9F702728-8CD9-2061-2A4B-D79175F750AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE19D322-470C-B123-BC35-A7132AD27051" name="F_ROL_ID_PK">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>ED1C5ED1-EAA9-B3AA-4551-26557B7DBED2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D59AD4D-E55E-5089-7A83-BF81F82DB7E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

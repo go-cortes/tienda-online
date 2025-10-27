@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="919DB1B0-14F8-63AC-C96D-CDD58AE60B24" name="F FOOD ITEMS">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>BD57C8EE-ABC9-4C02-9916-4EE34EF67ABF</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FOOD ITEM NUMBER" id="F9AF9239-6A9E-CD0C-6769-6CE5D1B4F8F5">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contains]]></commentInRDBMS>
+<generatorID>AD52AAE8-2FAA-E1DD-403C-E209BAFEC2AB</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPTION" id="99886868-D48C-7655-011D-FEF049D9BBE7">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>B13A70FF-9882-E731-1A06-CADC0C30A36F</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>789C6508-1EE4-BD75-B96C-D080F6167C2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRICE" id="4E0A0557-DEC1-74BB-E3D7-CACB30A147FB">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>B0ED476D-4842-6F3A-4360-B23B411E9C2D</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>9F702728-8CD9-2061-2A4B-D79175F750AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REGULAR CODE" id="1F2BDA5C-A73E-B583-206D-761520A78517">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Listed on]]></commentInRDBMS>
+<generatorID>5CCFAE02-4232-D971-FB9F-4E6CB7E1FCA2</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>78A44036-474A-B8E1-29F6-F2274E0DB265</referedAttribute>
+<use>0</use>
+<domain>E1EE6D56-4173-2121-CED2-64EC69CCA2AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROMO CODE" id="FD2B1A60-3F9C-C295-4155-F528EC18CCA3">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Listed on]]></commentInRDBMS>
+<generatorID>DBFE866A-AFCC-6B04-7323-4D6B07BAB47D</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>80D86009-8515-F084-42F3-5784F583BD11</referedAttribute>
+<use>0</use>
+<domain>E1EE6D56-4173-2121-CED2-64EC69CCA2AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8C0999C4-0E74-46F1-7DE3-2B93358A2421" name="F FIM FOOD ITEM NUMBER PK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>74F98A04-EE48-A2A1-BBA3-6DABB07AA6A8</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F9AF9239-6A9E-CD0C-6769-6CE5D1B4F8F5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

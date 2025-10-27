@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89A21635-E602-4DCA-2D1E-0279510EDB0E" name="F_ORDER_TAKERS">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>F20FD7AA-2171-0E41-6AA4-99B44A6DF92C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STAFF_ID" id="F7CA7C79-E6F1-B586-7F12-01130CC6012A">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Supervised by]]></commentInRDBMS>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>A6B3C083-78D0-7456-9325-50F101377B94</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22564902-AC4B-5389-5EFA-7AE3FF123A02" referredColumn="DAF13AF1-C59A-7492-E8F8-5C5E66309853"/>
+</associations>
+</Column>
+<Column name="OVERTIME_RATE" id="3AFCF332-483D-A98C-F3A4-1AD93A0E99E0">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>7B217C36-9720-9A9E-605B-4EE91F27AA9B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>F6BDF95E-9B7C-AFAB-BB1B-F31999A8D514</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRAINING" id="DFC6CDE1-25A0-F446-3BB6-52160606528D">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>EF2C5440-6CFE-3A98-8C39-5643F49B2423</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>850A8CDF-AF80-27AA-9DAA-DE3D85C4B610</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BC730E5-9029-9C69-2028-B76743001A16" name="F_OT_STAFF_ID_PK">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>D0B00868-9166-5B8D-8ACC-6E88FBC9DADC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7CA7C79-E6F1-B586-7F12-01130CC6012A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="219C50F8-2A8C-4CC2-E98D-A4AFBAF349C3" name="F_OT_STAFF_ID_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:44 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7CA7C79-E6F1-B586-7F12-01130CC6012A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

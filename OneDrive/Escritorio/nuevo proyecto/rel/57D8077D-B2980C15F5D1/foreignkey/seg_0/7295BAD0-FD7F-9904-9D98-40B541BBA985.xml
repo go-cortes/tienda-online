@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7295BAD0-FD7F-9904-9D98-40B541BBA985" containerWithKeyObject="C1BB3B04-0995-A0CC-72F9-99856975FF27" localFKIndex="2A7C6E74-AC72-8F66-2A8A-394D86826790" name="fk_shift_staff">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>6358BCF9-5672-F446-39B3-AB0CCEF230A4</importedID>
+<referredTableLongName>F_STAFFS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>063B6AC0-04D5-8FCF-0F9C-370C06647097</referredTableID>
+<keyObject>63375908-0B1C-76E0-981B-C920E7B44F5A</keyObject>
+<referredKeyID>63375908-0B1C-76E0-981B-C920E7B44F5A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>STAFF_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

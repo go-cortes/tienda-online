@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7DEFF74B-DAAE-2B93-738E-D7F065906A8B" name="F CUSTOMERS">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>C58BE560-9D4A-480D-C3A8-825A3764BD35</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="BE35ADB4-D429-77A1-FD1A-81D80CED3A0C">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[I Plaes]]></commentInRDBMS>
+<generatorID>31F84E85-28A2-87D3-3548-24217643F3A2</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FIRST NAME" id="5A7BB246-4D87-05E5-DE8C-BAB09951A4B2">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>2BBC01BE-5C10-0FF0-6A17-E0BE885D88CC</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>E2862FEF-7EAE-C110-81F9-730F09E8227F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LAST NAME" id="34C28EA1-7547-A9D1-383C-0922175EF03B">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>02C3D8D1-693E-F5EA-F766-6140DDE18825</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>ECC67F1A-FD63-5978-22C4-C26E80086A94</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS" id="7306157A-F2AA-41C6-1967-B8DE5831BF30">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>3600302E-ECC3-B924-04F5-B262076977E0</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>850A8CDF-AF80-27AA-9DAA-DE3D85C4B610</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CITY" id="36F5A76E-DAC1-13EF-6E4E-667899260697">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>09430619-F709-CF35-5C4C-491222AB6459</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>0CCB3A3C-DED5-DAA8-338A-2595537324D2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATE" id="5CC6A2B7-AB66-B7AE-B313-5B8AF759B169">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>97882218-8491-AADE-3611-77FAE1A1AEB9</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>6D11B18F-1DDF-540E-8D3F-1E6B8AA77721</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZIP" id="B2868433-05B6-16E6-E838-A085622B4514">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>E97E12B3-1FF7-A1BA-59A0-48E7FC26F81C</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>2789FDB2-C45F-9810-9ADB-6CEF843CDDAD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PHONE NUMBER" id="89C5D846-86D1-643B-7DEE-EBBD284879FF">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>713AB239-63EB-ADDF-1049-4879C97B4E0C</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>2F2D1B1F-2DB3-8C99-8FCA-1D6220554070</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="51DB5F8B-3AA7-094F-59C5-D624543ECC95" name="F CSR ID PK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>E7EDED9A-B6F8-C764-4514-26F07EC9C8B1</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BE35ADB4-D429-77A1-FD1A-81D80CED3A0C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

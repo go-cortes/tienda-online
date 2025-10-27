@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9265680A-20F6-EA8D-0A1F-7909A72BAFCD" name="F_REGULAR_MENUS">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>9C3AAC0C-3364-A4E4-3672-B9D9D21E3BB5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE" id="D7E19616-7408-4AFB-3FD7-75BF2C10B318">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>00133F92-22D9-F668-F1CD-1B6E34CE5413</importedID>
+<use>0</use>
+<domain>E1EE6D56-4173-2121-CED2-64EC69CCA2AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE" id="DD04E1CD-43A0-AC0D-8434-1B031CB0B42D">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>F9453CBE-939C-59C4-52CA-069351C82885</importedID>
+<use>0</use>
+<domain>0CCB3A3C-DED5-DAA8-338A-2595537324D2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_RMU_TYPE_NN</notNullConstraintName>
+</Column>
+<Column name="HOURS_SERVED" id="E30B7509-BC4D-C952-85BF-CFDAE63D7920">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>1151701B-C8A9-2A4F-A785-C10A7B5A152B</importedID>
+<use>0</use>
+<domain>0CCB3A3C-DED5-DAA8-338A-2595537324D2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_RMU_HOURS_SERVED_NN</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A7CD756-D0BD-1402-F150-4159864679D3" name="F_RMU_CODE_PK">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>BA88C35B-9280-7A18-0B0B-9C0B7C2EC3F3</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7E19616-7408-4AFB-3FD7-75BF2C10B318"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

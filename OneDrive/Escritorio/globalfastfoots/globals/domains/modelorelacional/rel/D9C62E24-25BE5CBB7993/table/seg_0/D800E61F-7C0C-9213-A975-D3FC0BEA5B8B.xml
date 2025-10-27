@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D800E61F-7C0C-9213-A975-D3FC0BEA5B8B" name="F_ORDERS">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>5B4CEA68-DCF3-BAEC-E650-F25F710164C2</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_NUMBER" id="62C408D6-195A-2496-62B5-ACEE98866871">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sold via]]></commentInRDBMS>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>FBE39EDB-B415-A395-D3E6-530FDCA196FA</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_DATE" id="01E9FA0F-CC5D-BC02-9B3D-32E58F09E50F">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>E660C2AB-AFDC-47CE-8459-5FEB2927DE5C</importedID>
+<use>0</use>
+<domain>ACD89DAC-48CD-59C5-85E4-1670DE020F07</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_ODR_ORDER_DATE_NN</notNullConstraintName>
+</Column>
+<Column name="ORDER_TOTAL" id="D85A5968-BDF2-FFC3-9A31-05BAD2E91FCB">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>B5BC636E-BD2A-C848-E25E-E26DAE042B83</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>9F702728-8CD9-2061-2A4B-D79175F750AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_ID" id="C1BB3EF6-15AB-8B08-502C-B944CD71E821">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Placed by]]></commentInRDBMS>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>3B3107B2-EA17-4EDF-7D56-83B5534B6D92</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_ODR_CUST_ID_NN</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="E717C174-5593-5655-9FCA-66164C272897" referredColumn="DE1D748C-303D-360B-7BA1-67E502CF760B"/>
+</associations>
+</Column>
+<Column name="STAFF_ID" id="27BE2F14-7F6C-BCD1-1CC2-965C51FF6A02">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>AE3F7699-23A5-F3FA-2473-E4249B5F2848</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_ODR_STAFF_ID_NN</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="175FDBAA-5644-F5B9-18C7-61F475BCBDC8" referredColumn="DAF13AF1-C59A-7492-E8F8-5C5E66309853"/>
+</associations>
+</Column>
+<Column name="SUCURSAL_ID" id="1102E27B-F5CC-8B48-7642-656DE662503E">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>D09846FD-DD42-1A84-66CE-97DF87BC0CD3</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_ODR_SUCURSAL_ID_NN</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="0D839237-CD50-1813-8A35-6DFD594A101A" referredColumn="C2A2C2B4-A6F2-538C-09D4-A40A2ABA2418"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A77BF96-033E-14CD-9A51-E022BB970854" name="F_ODR_ORDER_NUMBER_PK">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>AB85D58F-52DA-5F74-502F-3BD173FA64B8</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62C408D6-195A-2496-62B5-ACEE98866871"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35715F36-E5A2-98E6-E0C0-B304A9B8CACE" name="F_ODR_CUST_ID_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:44 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1BB3EF6-15AB-8B08-502C-B944CD71E821"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D915D47-CF23-78D5-6A3C-6310069A39FE" name="F_ODR_STAFF_ID_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:44 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27BE2F14-7F6C-BCD1-1CC2-965C51FF6A02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D77D309B-54D5-5673-75E8-D1A11FB35612" name="F_ODR_SUCURSAL_ID_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:44 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1102E27B-F5CC-8B48-7642-656DE662503E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E81D712-8A2E-C0A5-A372-2E75B868090A" name="F_ORDER_LINES">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>1DD85A93-2542-0A1B-C061-B960F1DE6D94</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_NUMBER" id="E30B4023-31F2-E1E5-2F96-94D048EB42D8">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Made up of]]></commentInRDBMS>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>89FC7755-8F33-5BAE-4E1F-8E21CBD14316</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9239380F-CE22-5A0B-1249-B0AB840A73A5" referredColumn="62C408D6-195A-2496-62B5-ACEE98866871"/>
+</associations>
+</Column>
+<Column name="FOOD_ITEM_NUMBER" id="DE7B17C9-7AF3-8574-03B4-1881B01B053C">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>2865B5C6-65E2-5432-3F02-DA575FB36FDB</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A7840A0-498D-635B-4CA0-F97961BDC087" referredColumn="65F06946-6976-8CD2-128B-599179A4C23D"/>
+</associations>
+</Column>
+<Column name="QUANTITY" id="B5BDC386-11D2-F8C8-E930-294F3F47FD9A">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>8A1F3167-62CF-1A56-6453-1BB1C368A82A</importedID>
+<use>0</use>
+<domain>F6CF6C6E-9EA3-FE80-B65E-A5207381E8EA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_OLE_QUANTITY_NN</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4A6F218-DBAE-6CFF-54D8-0EE2FECAF0B6" name="F_OLE_PK">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>7D4C7264-0923-40CF-5D56-2B5609F7AC6E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E30B4023-31F2-E1E5-2F96-94D048EB42D8"/>
+<colUsage columnID="DE7B17C9-7AF3-8574-03B4-1881B01B053C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96D1C1F5-C26D-9ECB-3827-1C588D6C265B" name="F_OLE_FOOD_ITEM_NUMBER_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:44 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE7B17C9-7AF3-8574-03B4-1881B01B053C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FAB08AF8-9B46-5B8E-0640-F25C1EE56A4E" name="F_OLE_ORDER_NUMBER_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:44 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E30B4023-31F2-E1E5-2F96-94D048EB42D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

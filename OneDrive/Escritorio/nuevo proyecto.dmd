@@ -5,4 +5,9 @@
 <ownerDesignName>nuevo proyecto</ownerDesignName>
 <capitalNames>false</capitalNames>
 <designId>15DD4BF0-EDE3-7688-9502-3DE7F7E27CB2</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="65530C4B-879E-2BFC-B4D3-1137DB9746DA">
+<designStoragePath>C:\Modelo_ER_Actualizado (1)</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
 </OSDM_Design>

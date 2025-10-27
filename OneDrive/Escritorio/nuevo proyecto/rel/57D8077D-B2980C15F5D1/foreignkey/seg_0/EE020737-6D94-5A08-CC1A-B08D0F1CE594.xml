@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EE020737-6D94-5A08-CC1A-B08D0F1CE594" containerWithKeyObject="C1BB3B04-0995-A0CC-72F9-99856975FF27" localFKIndex="157324B4-67AA-C0DE-24E6-75FBB38DD439" name="fk_shift_code">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>521530D4-4A1E-77CA-3388-F8866FEC027B</importedID>
+<referredTableLongName>SHIFT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>87894DA2-BF7D-D7EC-270C-CDB33E14AFA4</referredTableID>
+<keyObject>BBABE1F3-2EAE-5F3D-5035-DBBE77E8488A</keyObject>
+<referredKeyID>BBABE1F3-2EAE-5F3D-5035-DBBE77E8488A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

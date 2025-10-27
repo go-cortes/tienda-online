@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PROMOTIONAL_MENU" directorySegmentName="seg_0" id="EAFC75F0-D8A6-A968-04C9-D33C829526D3">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:55 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="END_DATE" id="400A973B-C341-4C26-2010-ACEC8D59B9F8">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="START_DATE" id="7A09E65F-ED2E-28BB-6E0A-40D0BA8174FB">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="95C603D6-0E36-B4BD-143F-1BD0E8A95179">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="CB98E6E6-BE37-6A4B-DC20-CAC0D970428F">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GIVE_AWAY" id="E67BDF37-ECBE-5680-2C26-6FC71BF8EC97">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PROMOTIONAL_MENU_PK" id="E18C7030-7154-6721-3D9C-0C3129302430">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

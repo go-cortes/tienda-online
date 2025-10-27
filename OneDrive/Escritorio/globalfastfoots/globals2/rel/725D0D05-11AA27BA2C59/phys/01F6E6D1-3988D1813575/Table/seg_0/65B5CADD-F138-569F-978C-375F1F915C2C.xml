@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="F_PROMOTIONAL_MENUS" directorySegmentName="seg_0" id="65B5CADD-F138-569F-978C-375F1F915C2C">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODE" id="2F9D626A-EF3B-BF2B-C5B5-7F6C9C50B0DA">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="END_DATE" id="83027A9B-7FE3-5B8A-19F7-9652E14E7870">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="START_DATE" id="B905C61E-B2B8-7C1E-95BF-0461FA2A358D">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GIVE_AWAY" id="CEAB5789-3B2C-6272-C613-601985BCD1E9">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="D8B8D10E-D36D-4C49-8848-669F36136D37">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="F_PMU_CODE_PK" id="3BD9527E-F890-4C4E-9425-F79D7AB2F3AB">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

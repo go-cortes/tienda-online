@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ACF5D550-105C-86FB-90FF-E4AFB27132FD" name="F SUCURSALES">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>A0C04D58-9E14-2414-A71F-B0B6BF38B935</generatorID>
+<ownerDesignName>globals2</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SUCURSAL ID" id="E2320063-ACDE-156D-CFEF-C679DED3FBBB">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>259B27B8-2C25-1FC1-7BB4-9BB8B238CF70</generatorID>
+<ownerDesignName>globals2</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="CEE56EBA-A3BC-FCB8-5B35-FF487E8413E6">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>E34BDCFD-12BD-1905-3E61-ECB5E59929C5</generatorID>
+<ownerDesignName>globals2</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>789C6508-1EE4-BD75-B96C-D080F6167C2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECCION" id="6CDD88BF-CCE5-CF34-EBA5-6C38AC679895">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>5E0F2DAA-F2CF-59B5-D8BF-A862C6C3158A</generatorID>
+<ownerDesignName>globals2</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>827A68D7-2170-40A3-3248-B66A225B5255</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CIUDAD" id="2129221D-8839-9C3D-2BCB-D06C7A99F3D4">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>BCB1DF8C-F6F8-1419-B879-0F728F3148F1</generatorID>
+<ownerDesignName>globals2</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>789C6508-1EE4-BD75-B96C-D080F6167C2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GERENTE ID" id="B936C541-54AE-8F94-6365-EC92E7D8F888">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Managed by]]></commentInRDBMS>
+<generatorID>B5EF4779-607A-4ED4-B801-B408819EFEB8</generatorID>
+<ownerDesignName>globals2</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>470BA79E-61E0-C82D-5F08-4F53CD0E9993</referedAttribute>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5E70885F-8E38-B8F2-C83E-9796C21891BC" name="F SUC ID PK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>2BE0E9F6-3C1D-F211-2265-E47F8D3FCBA2</generatorID>
+<ownerDesignName>globals2</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E2320063-ACDE-156D-CFEF-C679DED3FBBB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

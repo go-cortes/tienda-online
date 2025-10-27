@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4764DDF-6C05-7570-D332-A81D91960502" name="F_CUSTOMERS">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>3FE2A119-AAFF-03A3-FE08-7DAB62ED2F8F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="DE1D748C-303D-360B-7BA1-67E502CF760B">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[I Plaes]]></commentInRDBMS>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>18B86CFD-7A4D-DB2E-3269-41616E7B556B</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" id="C609CC7E-6D3F-2CF6-EBF8-9C87B2E8BCC5">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>0C632D7A-00B3-72E1-5E9B-60B38C2E6F28</importedID>
+<use>0</use>
+<domain>E2862FEF-7EAE-C110-81F9-730F09E8227F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_CSR_FIRST_NAME_NN</notNullConstraintName>
+</Column>
+<Column name="LAST_NAME" id="39ACB50A-7CB7-4746-ED5C-96452BD0278B">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>5E0B4580-0CA2-101A-79E1-C0CCFCD4AFDF</importedID>
+<use>0</use>
+<domain>ECC67F1A-FD63-5978-22C4-C26E80086A94</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_CSR_LAST_NAME_NN</notNullConstraintName>
+</Column>
+<Column name="ADDRESS" id="E2D7CD84-F1B3-B3E4-EF2E-91E8ABDEF44D">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>7AE41F50-DB31-D109-72DD-D9E2A0D9E427</importedID>
+<use>0</use>
+<domain>850A8CDF-AF80-27AA-9DAA-DE3D85C4B610</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_CSRS_ADDRESS_NN</notNullConstraintName>
+</Column>
+<Column name="CITY" id="D00CD164-5704-0E58-AAA6-154D6E6198DA">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>3AAE37EE-81D5-1EAC-229B-02729EB0E189</importedID>
+<use>0</use>
+<domain>0CCB3A3C-DED5-DAA8-338A-2595537324D2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_CSR_CITY_NN</notNullConstraintName>
+</Column>
+<Column name="STATE" id="005B582E-A12C-9001-B179-CE25A0025754">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>F730703A-2A45-8C54-CBC8-256DB2E6FA10</importedID>
+<use>0</use>
+<domain>6D11B18F-1DDF-540E-8D3F-1E6B8AA77721</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_CSR_STATE_NN</notNullConstraintName>
+</Column>
+<Column name="ZIP" id="32EE5605-B1E7-0280-9E2D-E1FB2EDFAC7D">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>F1CD2F0A-B514-8459-3417-B75322316EB4</importedID>
+<use>0</use>
+<domain>2789FDB2-C45F-9810-9ADB-6CEF843CDDAD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_CSR_ZIP_NN</notNullConstraintName>
+</Column>
+<Column name="PHONE_NUMBER" id="E2EAF7D4-64BE-2319-7594-79E8A6AAE3FE">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>AE0E2019-B232-0996-D238-E18B145FED26</importedID>
+<use>0</use>
+<domain>2F2D1B1F-2DB3-8C99-8FCA-1D6220554070</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_CSR_PHONE_NUMB_NN</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8494D043-1CB9-EC9F-64D6-A534937B62EE" name="F_CSR_ID_PK">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>9CAF71AA-5453-BD5D-8A4F-5AD0C5FDDC1E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE1D748C-303D-360B-7BA1-67E502CF760B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

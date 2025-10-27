@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="F_SAT_SHIFT_CODE_FK" directorySegmentName="seg_0" id="C0DFCDCC-E033-A0E6-239A-AFCCEF9A4951">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>00ADBE54-19CA-E02D-7009-2EA46D7C0C25</generatorID>
+<ownerDesignName>globals2</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<sourcePk>8C440492-5141-628B-1731-8060D17120A2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2BA739C0-95AB-3FD6-82ED-9BF6275BF26C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>19D45965-0760-000E-32D0-E08298A806BB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

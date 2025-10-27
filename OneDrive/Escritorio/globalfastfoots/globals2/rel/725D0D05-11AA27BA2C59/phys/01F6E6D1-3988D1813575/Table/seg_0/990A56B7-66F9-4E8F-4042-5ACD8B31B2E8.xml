@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="F_ROLES" directorySegmentName="seg_0" id="990A56B7-66F9-4E8F-4042-5ACD8B31B2E8">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ROL_ID" id="16ECF254-B852-7BEA-A903-6BC3F29B42C8">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUELDO_MINIMO" id="1A75CA90-A63E-CFBF-0A80-22AD2DEC6D31">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION" id="205C140B-F89B-EF71-81CD-F1C02096719C">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE_ROL" id="33044E06-DDEE-02C9-307D-7CDAA6E8B457">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUELDO_MAXIMO" id="441FE33C-CB20-1555-D044-0F6D743ECD1D">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="F_ROL_ID_PK" id="A6FBB16E-4695-AB85-A971-4795BAB69509">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

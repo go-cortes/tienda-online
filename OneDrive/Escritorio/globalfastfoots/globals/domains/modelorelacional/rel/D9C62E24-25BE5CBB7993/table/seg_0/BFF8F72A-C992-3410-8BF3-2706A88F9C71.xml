@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFF8F72A-C992-3410-8BF3-2706A88F9C71" name="F_FOOD_ITEMS">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>FF8F1751-47EC-3E39-D6CC-41599C8F6EEC</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FOOD_ITEM_NUMBER" id="65F06946-6976-8CD2-128B-599179A4C23D">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contains]]></commentInRDBMS>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>D174B604-3D56-12B6-8AA4-5C460D826040</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="4E50AD93-7D09-481A-18EC-9FC743920AEA">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>F017A0FA-6FF3-2E7C-ED14-5B3274703BCF</importedID>
+<use>0</use>
+<domain>789C6508-1EE4-BD75-B96C-D080F6167C2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_FIM_DESC_NN</notNullConstraintName>
+</Column>
+<Column name="PRICE" id="0C0D3CF3-D06D-6D44-C66F-2C12369E4548">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>641F9832-D112-D01F-86C5-EB32778B7BB8</importedID>
+<use>0</use>
+<domain>9F702728-8CD9-2061-2A4B-D79175F750AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_FIM_PRICE_NN</notNullConstraintName>
+</Column>
+<Column name="REGULAR_CODE" id="6CDBFCBE-EC2C-BDA0-0CE2-6D220DDFA12E">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Listed on]]></commentInRDBMS>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>A2B186F2-FF48-31B4-3444-A296E3A04FE9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>E1EE6D56-4173-2121-CED2-64EC69CCA2AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="059AC23E-CE86-ACD8-D2F1-EDD7BCBF6F89" referredColumn="D7E19616-7408-4AFB-3FD7-75BF2C10B318"/>
+</associations>
+</Column>
+<Column name="PROMO_CODE" id="2D822F21-B103-39AA-C7EA-DE3FA1B8E718">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Listed on]]></commentInRDBMS>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>A6824E58-F95D-FBF0-6BE0-E7E78FF749B4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>E1EE6D56-4173-2121-CED2-64EC69CCA2AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80D2F37D-BC89-A78C-6D70-4ED79698BC11" referredColumn="4C26DDE6-CF99-E753-DE7C-8D7974F919F2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="852A2AA8-A57B-F11E-C7F8-AC5B6D53E097" name="F_FIM_FOOD_ITEM_NUMBER_PK">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>A0AD10D5-E9AD-AE98-5A5A-CD057F928604</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65F06946-6976-8CD2-128B-599179A4C23D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A85EDA4-4C03-C244-6FCE-967EE759396E" name="F_FIM_PROMO_CODE_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D822F21-B103-39AA-C7EA-DE3FA1B8E718"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F9F01C9-A297-FA54-0EE3-55B0DCB4ADEA" name="F_FIM_REGULAR_CODE_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CDBFCBE-EC2C-BDA0-0CE2-6D220DDFA12E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

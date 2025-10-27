@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65B5CADD-F138-569F-978C-375F1F915C2C" name="F_PROMOTIONAL_MENUS">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+<importedID>EA8902DC-9522-7198-9616-7BDC0E58D2D7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE" id="2F9D626A-EF3B-BF2B-C5B5-7F6C9C50B0DA">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+<importedID>F66463FB-F1E3-2ED9-FE60-4BCBD2B9B51B</importedID>
+<use>0</use>
+<domain>E1EE6D56-4173-2121-CED2-64EC69CCA2AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="D8B8D10E-D36D-4C49-8848-669F36136D37">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+<importedID>2EFF023C-0E2F-51B0-8BD6-5E332E806513</importedID>
+<use>0</use>
+<domain>0CCB3A3C-DED5-DAA8-338A-2595537324D2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_PMU_NAME_NN</notNullConstraintName>
+</Column>
+<Column name="START_DATE" id="B905C61E-B2B8-7C1E-95BF-0461FA2A358D">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+<importedID>E9318D0D-6987-59F7-BAA2-B0CF10030066</importedID>
+<use>0</use>
+<domain>ACD89DAC-48CD-59C5-85E4-1670DE020F07</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_PMU_START_DATE_NN</notNullConstraintName>
+</Column>
+<Column name="END_DATE" id="83027A9B-7FE3-5B8A-19F7-9652E14E7870">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+<importedID>8100B392-E420-7B65-A178-1A22AFA3A018</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>ACD89DAC-48CD-59C5-85E4-1670DE020F07</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIVE_AWAY" id="CEAB5789-3B2C-6272-C613-601985BCD1E9">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+<importedID>745F597B-4C73-F0FA-58B9-2ACDD0FDBBD0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>F284EC52-AC1C-E2D0-F358-9707BD4C87A0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BD9527E-F890-4C4E-9425-F79D7AB2F3AB" name="F_PMU_CODE_PK">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+<importedID>0D72FEE2-F14E-FB78-7102-AC77922919D2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F9D626A-EF3B-BF2B-C5B5-7F6C9C50B0DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

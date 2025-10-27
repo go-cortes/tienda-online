@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28D31E23-38E9-1E64-CF71-85FDD76D5DE0" name="F ORDER TAKERS">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>CFF65B9A-3C46-1CA2-61C6-C99A7CCCDF4A</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="STAFF ID" id="6930CA8C-FE4D-F876-3ED7-FA56B86F1B7F">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Supervised by]]></commentInRDBMS>
+<generatorID>897B1A5F-1E5C-4D46-7878-7687D9776516</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<referedAttribute>470BA79E-61E0-C82D-5F08-4F53CD0E9993</referedAttribute>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OVERTIME RATE" id="A6CEC0E3-8D0A-91F2-14D7-0B9B468768DE">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>D40BF112-16B5-E3C3-07D7-7DEF9502653A</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>F6BDF95E-9B7C-AFAB-BB1B-F31999A8D514</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TRAINING" id="38CC9813-82AC-9CC7-2B4A-021E1BE07F94">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>8B9224E6-6220-533B-25D0-36875F2A1AC4</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>850A8CDF-AF80-27AA-9DAA-DE3D85C4B610</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C115D54E-ACCE-BF53-E446-1088A9698B26" name="F OT STAFF ID PK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>FFBBF2C8-9906-B27A-5C21-11CCF88CB385</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6930CA8C-FE4D-F876-3ED7-FA56B86F1B7F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

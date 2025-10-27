@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00AAAC44-DBB5-5315-FAF4-E8489F9B9CE2" name="F_ORDERS">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>266FBE15-772A-BA20-0A7D-EADB918FF00D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_NUMBER" id="2DC84D37-7108-8C02-F0AE-B03291C4DED6">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sold via]]></commentInRDBMS>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>EA7A60F0-293C-C14A-5D5C-68A3182BF8FA</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_DATE" id="632EB1B6-6C3E-E86F-EB39-A7079CEF2461">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>7170CDCE-79F8-7913-A36C-5780C041766B</importedID>
+<use>0</use>
+<domain>ACD89DAC-48CD-59C5-85E4-1670DE020F07</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_ODR_ORDER_DATE_NN</notNullConstraintName>
+</Column>
+<Column name="ORDER_TOTAL" id="679827EB-E22E-0144-BB96-5D5B5B5561BA">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>8D6C284D-CE75-6AEF-7AB2-F8DE18560489</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>9F702728-8CD9-2061-2A4B-D79175F750AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_ID" id="2A29D009-7F0D-02FF-D10A-6746002FB1FA">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Placed by]]></commentInRDBMS>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>1322AC6B-649D-5CE7-1341-F637FFED90C1</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_ODR_CUST_ID_NN</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="3800CA34-AA14-E2DC-A1E9-ADEA04A78589" referredColumn="31F84E85-28A2-87D3-3548-24217643F3A2"/>
+</associations>
+</Column>
+<Column name="STAFF_ID" id="B9A35139-11EF-16C2-920E-BB4014CF94F5">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>A1877FF2-E284-D1DB-AF86-7FE0F84E04D3</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_ODR_STAFF_ID_NN</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="C891B9E2-A98F-3CC2-0ADD-92F6609CE6EF" referredColumn="9AFB269F-E435-A015-224C-C698D4963456"/>
+</associations>
+</Column>
+<Column name="SUCURSAL_ID" id="7835C3F6-C95B-7FF5-8FA4-45950DF46930">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>BEBFDA81-489A-84C4-FB2E-15D0283095CE</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_ODR_SUCURSAL_ID_NN</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="86DC5E14-C5F5-F821-1E38-BA63D2FDC21F" referredColumn="259B27B8-2C25-1FC1-7BB4-9BB8B238CF70"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="519ECA80-9666-8185-52EB-EB8C1F6877FF" name="F_ODR_ORDER_NUMBER_PK">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>02F21D50-8138-453D-61C7-AF1E0D91B295</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DC84D37-7108-8C02-F0AE-B03291C4DED6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCF6664F-B01F-FD9E-B0E5-72BAA2969182" name="F_ODR_CUST_ID_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A29D009-7F0D-02FF-D10A-6746002FB1FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADFC457A-3287-86F1-FFB3-E94EBA7003B2" name="F_ODR_STAFF_ID_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9A35139-11EF-16C2-920E-BB4014CF94F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C334EE1-D51A-A804-A59E-04AEBA284A8F" name="F_ODR_SUCURSAL_ID_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7835C3F6-C95B-7FF5-8FA4-45950DF46930"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

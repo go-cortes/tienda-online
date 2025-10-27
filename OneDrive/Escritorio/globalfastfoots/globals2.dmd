@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="globals2" id="5873BE35-F133-E5D3-068C-E819191087C0" version="3.5">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:42:21 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5873BE35-F133-E5D3-068C-E819191087C0</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="5DCFD6BC-2CA4-874C-4210-CD2195025FEF">
+<designStoragePath>C:\deepseek_sql_20250922_220aae</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

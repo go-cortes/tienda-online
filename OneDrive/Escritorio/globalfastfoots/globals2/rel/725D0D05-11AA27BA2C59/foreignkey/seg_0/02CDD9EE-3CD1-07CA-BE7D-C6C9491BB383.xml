@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="02CDD9EE-3CD1-07CA-BE7D-C6C9491BB383" containerWithKeyObject="4B8C16D8-533C-C3D5-B76B-4D96C67B7274" localFKIndex="E1A19B2E-7546-5535-7C42-DB6641D00FA7" name="F_OLE_FOOD_ITEM_NUMBER_FK">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globals2</ownerDesignName>
+<importedID>D9942313-37B9-F957-2231-881FF141B608</importedID>
+<referredTableLongName>F_FOOD_ITEMS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BD57C8EE-ABC9-4C02-9916-4EE34EF67ABF</referredTableID>
+<keyObject>74F98A04-EE48-A2A1-BBA3-6DABB07AA6A8</keyObject>
+<referredKeyID>74F98A04-EE48-A2A1-BBA3-6DABB07AA6A8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FOOD_ITEM_NUMBER</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

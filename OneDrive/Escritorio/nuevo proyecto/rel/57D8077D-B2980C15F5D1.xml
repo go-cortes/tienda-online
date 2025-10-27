@@ -4,5 +4,12 @@
 <createdTime>2025-09-19 22:23:30 UTC</createdTime>
 <ownerDesignName>nuevo proyecto</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
-<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Modelo_ER_Actualizado (1).sql</fileName>
+<pathName>C:\Users\Gonza\Downloads</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
 </relationalModel>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="F_FIM_PROMO_CODE_FK" directorySegmentName="seg_0" id="DBFE866A-AFCC-6B04-7323-4D6B07BAB47D">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>25365E37-3B31-D719-3F23-E03ACA1726F2</generatorID>
+<ownerDesignName>globals2</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<sourcePk>B9F77D49-A6AD-6E51-E3C7-4A9FBD27EA88</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D052DAC0-2C9F-C5EA-FB87-AF82706E4B98</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>919DB1B0-14F8-63AC-C96D-CDD58AE60B24</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

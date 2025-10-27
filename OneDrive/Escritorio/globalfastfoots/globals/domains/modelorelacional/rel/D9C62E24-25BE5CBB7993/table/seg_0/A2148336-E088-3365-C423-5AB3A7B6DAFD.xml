@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2148336-E088-3365-C423-5AB3A7B6DAFD" name="F_MANAGERS">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>303B1D41-A94F-99E7-4E29-2AF9CAF14F58</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STAFF_ID" id="2ABEBA2B-AA17-4569-8925-2AD2BFAAED27">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Supervise]]></commentInRDBMS>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>C4A5C00E-33FD-01AA-7B84-7992BF98A8C7</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CC5830B-41FB-0676-F5E8-8D4BE08D3DE4" referredColumn="DAF13AF1-C59A-7492-E8F8-5C5E66309853"/>
+</associations>
+</Column>
+<Column name="BUDGET" id="4B86EA74-4A00-63A3-18D8-649C7771C238">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>0C6A9891-8FE1-EF89-7403-1659669E97C5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>9F702728-8CD9-2061-2A4B-D79175F750AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TARGET_REVENUE" id="B5CED1DA-3702-E33B-8ECC-CE3F300E1B83">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>37C012E7-7EDD-330D-471B-9DEABF87BBB8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>9F702728-8CD9-2061-2A4B-D79175F750AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MANAGER_ID" id="ADDD351B-C9DA-C3F5-242E-632267EB7421">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>256512B5-5077-4398-AC62-9A562B29E927</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F20D660B-4268-FB09-7ED4-89F5DC8E89CC" referredColumn="DAF13AF1-C59A-7492-E8F8-5C5E66309853"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8ACDE22-B5A6-4149-AADE-77B4159E5C5D" name="F_MGR_STAFF_ID_PK">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>DE6032A6-2D4D-D087-A661-B267237745BE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2ABEBA2B-AA17-4569-8925-2AD2BFAAED27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BA972F8-90B5-1C05-CB6D-3BE3B2E2BCA7" name="F_MGR_MANAGER_ID_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADDD351B-C9DA-C3F5-242E-632267EB7421"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF7F7E04-A3A3-0CB9-4C7B-4F0D737DCFC7" name="F_MGR_STAFF_ID_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2ABEBA2B-AA17-4569-8925-2AD2BFAAED27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

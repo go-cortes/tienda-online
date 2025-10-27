@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C58BE560-9D4A-480D-C3A8-825A3764BD35" name="F_CUSTOMERS">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>033A16CB-F32B-9887-A65E-F8AEE3020B3F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="31F84E85-28A2-87D3-3548-24217643F3A2">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[I Plaes]]></commentInRDBMS>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>BC13D047-E352-493D-2ABA-F51148DB7415</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" id="2BBC01BE-5C10-0FF0-6A17-E0BE885D88CC">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>855A356C-2C00-147E-7F2C-15EAFE1540C4</importedID>
+<use>0</use>
+<domain>E2862FEF-7EAE-C110-81F9-730F09E8227F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_CSR_FIRST_NAME_NN</notNullConstraintName>
+</Column>
+<Column name="LAST_NAME" id="02C3D8D1-693E-F5EA-F766-6140DDE18825">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>7E84E7B4-5327-4D40-4583-4CAC880C257C</importedID>
+<use>0</use>
+<domain>ECC67F1A-FD63-5978-22C4-C26E80086A94</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_CSR_LAST_NAME_NN</notNullConstraintName>
+</Column>
+<Column name="ADDRESS" id="3600302E-ECC3-B924-04F5-B262076977E0">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>52803A9E-1495-75DD-CECD-6570642D4F6D</importedID>
+<use>0</use>
+<domain>850A8CDF-AF80-27AA-9DAA-DE3D85C4B610</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_CSRS_ADDRESS_NN</notNullConstraintName>
+</Column>
+<Column name="CITY" id="09430619-F709-CF35-5C4C-491222AB6459">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>38ECE37F-9609-E3D1-097C-5116319368DD</importedID>
+<use>0</use>
+<domain>0CCB3A3C-DED5-DAA8-338A-2595537324D2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_CSR_CITY_NN</notNullConstraintName>
+</Column>
+<Column name="STATE" id="97882218-8491-AADE-3611-77FAE1A1AEB9">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>B6ECE69A-D860-EDBE-9827-7501604AAC42</importedID>
+<use>0</use>
+<domain>6D11B18F-1DDF-540E-8D3F-1E6B8AA77721</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_CSR_STATE_NN</notNullConstraintName>
+</Column>
+<Column name="ZIP" id="E97E12B3-1FF7-A1BA-59A0-48E7FC26F81C">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>10F07A2F-ACAF-5875-7F6A-CD7AA8F2488A</importedID>
+<use>0</use>
+<domain>2789FDB2-C45F-9810-9ADB-6CEF843CDDAD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_CSR_ZIP_NN</notNullConstraintName>
+</Column>
+<Column name="PHONE_NUMBER" id="713AB239-63EB-ADDF-1049-4879C97B4E0C">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>AD97FC3D-D45F-7748-F46F-C54D51747938</importedID>
+<use>0</use>
+<domain>2F2D1B1F-2DB3-8C99-8FCA-1D6220554070</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_CSR_PHONE_NUMB_NN</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7EDED9A-B6F8-C764-4514-26F07EC9C8B1" name="F_CSR_ID_PK">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>6E7C6E87-9508-FA9F-188F-5DD560DF29CC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31F84E85-28A2-87D3-3548-24217643F3A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE78B230-952D-6C3A-1680-907CC0E248E8" name="F_PROMOTIONAL_MENUS">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>03579CF5-7F5C-1725-D034-DF10AC1065D5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE" id="4C26DDE6-CF99-E753-DE7C-8D7974F919F2">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>8608BF20-E125-C68D-62E6-1A2A628BC1F4</importedID>
+<use>0</use>
+<domain>E1EE6D56-4173-2121-CED2-64EC69CCA2AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="B3F979E8-DBD2-0232-6BEE-9166283F06A5">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>5D6BC1EE-FC58-DA50-0269-CD8629704A75</importedID>
+<use>0</use>
+<domain>0CCB3A3C-DED5-DAA8-338A-2595537324D2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_PMU_NAME_NN</notNullConstraintName>
+</Column>
+<Column name="START_DATE" id="6DD627F5-F5A0-5151-68FF-4B3628140C09">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>7A1B3D6C-B54F-8206-4022-24B9E05F7BD1</importedID>
+<use>0</use>
+<domain>ACD89DAC-48CD-59C5-85E4-1670DE020F07</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_PMU_START_DATE_NN</notNullConstraintName>
+</Column>
+<Column name="END_DATE" id="84AEA779-902B-DC2D-843F-A6973400A6DB">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>521724D1-00D7-2D28-5CAE-037DCD60665C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>ACD89DAC-48CD-59C5-85E4-1670DE020F07</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GIVE_AWAY" id="B7CA3003-5A35-9FB3-B721-C795833843F7">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>F8005349-C7FD-018D-B6EF-67825742D1FF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>F284EC52-AC1C-E2D0-F358-9707BD4C87A0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD72EE69-F915-19CE-D5C9-648C2398875E" name="F_PMU_CODE_PK">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>CA88849C-59A2-65D2-3368-5AA9114FB68B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C26DDE6-CF99-E753-DE7C-8D7974F919F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1EB7298B-4DCC-4487-49A2-0FEB99D1ADF6" name="F_STAFFS">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>CFD2066F-C907-EA31-9ED0-CF609F896D10</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9AFB269F-E435-A015-224C-C698D4963456">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>7D1B9F5C-FB30-24C1-C2E7-EDD6DB9168D5</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" id="DAB5B84C-FF12-5E3F-5E1D-803BE04A19A9">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>C97C9E29-FC4C-5740-4ABD-1FD2A13BC768</importedID>
+<use>0</use>
+<domain>E2862FEF-7EAE-C110-81F9-730F09E8227F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_STF_FIRST_NAME_NN</notNullConstraintName>
+</Column>
+<Column name="LAST_NAME" id="400FFD8A-585E-9D7D-765C-48BBB44BD311">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>66BFF8C6-E2B4-F2B2-BD52-91C511F834D9</importedID>
+<use>0</use>
+<domain>ECC67F1A-FD63-5978-22C4-C26E80086A94</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_STF_LAST_NAME_NN</notNullConstraintName>
+</Column>
+<Column name="BIRTHDATE" id="00F4A6CE-AE03-9A00-180E-13C4676360C1">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>35456CB9-AB90-C19A-919B-7EB510D688B5</importedID>
+<use>0</use>
+<domain>ACD89DAC-48CD-59C5-85E4-1670DE020F07</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_STF_BIRTHDATE_NN</notNullConstraintName>
+</Column>
+<Column name="SALARY" id="6AD46A91-D08A-D439-ABB2-3C59662359C2">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>D8F9C891-BBA5-1209-458A-9D295F261BCD</importedID>
+<use>0</use>
+<domain>9F702728-8CD9-2061-2A4B-D79175F750AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_STF_SALARY_NN</notNullConstraintName>
+</Column>
+<Column name="STAFF_TYPE" id="5CA16336-DC54-B34B-D4CE-87AD950ADC47">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>7B430111-2647-AD41-7BF9-9776F4EC8C63</importedID>
+<use>0</use>
+<domain>6D11B18F-1DDF-540E-8D3F-1E6B8AA77721</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_STF_TYPE_NN</notNullConstraintName>
+</Column>
+<Column name="SUCURSAL_ID" id="17D4C696-4DDC-E0EB-A678-66553DC2FA75">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Works at]]></commentInRDBMS>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>3B840FAF-4073-AF8D-DD51-82F335B7AC9C</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_STF_SUCURSAL_ID_NN</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="8315F4C5-5971-ACA0-BD72-2BC0874C8067" referredColumn="259B27B8-2C25-1FC1-7BB4-9BB8B238CF70"/>
+</associations>
+</Column>
+<Column name="ROL_ID_ACTUAL" id="E7C0A153-126E-7806-79B5-9CF6804BD736">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Has role]]></commentInRDBMS>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>0C035941-85C6-F6E6-4B04-36E43EADC1A3</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_STF_ROL_ID_NN</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="ACA3CA27-D301-24BD-0F86-7C2842217643" referredColumn="16ECF254-B852-7BEA-A903-6BC3F29B42C8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87B13DE3-4249-C62B-B784-DB003D2DBC31" name="F_STF_ID_PK">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>9614B9E2-501F-2115-9EFB-3A773477AABB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AFB269F-E435-A015-224C-C698D4963456"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B3DAAAD-4960-19D8-677E-6163C6364F4A" name="F_STF_ROL_ID_ACTUAL_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7C0A153-126E-7806-79B5-9CF6804BD736"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45EDEFC7-F823-5C4E-DC4E-790BB5ED9CE4" name="F_STF_SUCURSAL_ID_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17D4C696-4DDC-E0EB-A678-66553DC2FA75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="F_STF_TYPE_CHK" directorySegmentName="seg_0" id="D0C0729E-BC7C-68D8-312C-96A5559A6BED">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>E84C7E7F-6330-65AA-923C-80C163E6D099</importedID>
+<rule><![CDATA[STAFF_TYPE IN ('ORDER_TAKER', 'MANAGER')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

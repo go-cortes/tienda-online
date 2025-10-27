@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7B052D8-B25C-2D57-66DD-6BE524F408E2" name="F_STAFFS">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>BA9060E5-8396-B414-D836-E93B04496A2C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="DAF13AF1-C59A-7492-E8F8-5C5E66309853">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>8AF67B48-3365-B820-C347-0A67B2521D4D</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" id="3D97A6F8-1458-0F05-BE5F-D00A4786BE9C">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>F4D9E097-0D8B-CED9-BCCB-8BAF232B511F</importedID>
+<use>0</use>
+<domain>E2862FEF-7EAE-C110-81F9-730F09E8227F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_STF_FIRST_NAME_NN</notNullConstraintName>
+</Column>
+<Column name="LAST_NAME" id="477B25C5-9ABC-4221-0937-8B191F61762D">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>5A68984D-DA21-55D0-B108-F0A1794085D2</importedID>
+<use>0</use>
+<domain>ECC67F1A-FD63-5978-22C4-C26E80086A94</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_STF_LAST_NAME_NN</notNullConstraintName>
+</Column>
+<Column name="BIRTHDATE" id="E29AAF42-4E6E-267B-8940-9ADFCD036FEE">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>308BF688-81EC-F095-0D97-D5837B430B05</importedID>
+<use>0</use>
+<domain>ACD89DAC-48CD-59C5-85E4-1670DE020F07</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_STF_BIRTHDATE_NN</notNullConstraintName>
+</Column>
+<Column name="SALARY" id="4A046342-C970-7122-BBDF-5F82188ED84D">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>3BDB2023-2D90-F94D-A9B5-2AA5987A446A</importedID>
+<use>0</use>
+<domain>9F702728-8CD9-2061-2A4B-D79175F750AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_STF_SALARY_NN</notNullConstraintName>
+</Column>
+<Column name="STAFF_TYPE" id="3C663983-9B0E-525B-75DC-BD48C71985F8">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>27DB4C91-E6DE-00A5-A661-32D36FA19B1D</importedID>
+<use>0</use>
+<domain>6D11B18F-1DDF-540E-8D3F-1E6B8AA77721</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_STF_TYPE_NN</notNullConstraintName>
+</Column>
+<Column name="SUCURSAL_ID" id="D3E5EC10-AB28-7927-B802-61E0FDB562EF">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Works at]]></commentInRDBMS>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>9E6DEE32-EF37-4BA2-028E-F869EAAD3E3B</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_STF_SUCURSAL_ID_NN</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="B8938307-0579-DBF7-F385-9FA6E7CBA0F5" referredColumn="C2A2C2B4-A6F2-538C-09D4-A40A2ABA2418"/>
+</associations>
+</Column>
+<Column name="ROL_ID_ACTUAL" id="1AD528A9-DD13-46F6-720F-0BE622BD2A93">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Has role]]></commentInRDBMS>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>21BAFFE0-7391-8A6B-F271-108667549603</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_STF_ROL_ID_NN</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="2228EEE4-D1AC-F772-3063-4F674279350B" referredColumn="2D59AD4D-E55E-5089-7A83-BF81F82DB7E1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F96347A-14F8-C623-C9C6-A3A6B7E07873" name="F_STF_ID_PK">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>FA8C6744-4924-9D43-A8B9-D5DDEDAD985E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAF13AF1-C59A-7492-E8F8-5C5E66309853"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4F68318-3976-BA76-C459-A496AD4B0491" name="F_STF_ROL_ID_ACTUAL_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:44 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AD528A9-DD13-46F6-720F-0BE622BD2A93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2844DD5-6140-531A-8914-772405B83D06" name="F_STF_SUCURSAL_ID_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:44 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3E5EC10-AB28-7927-B802-61E0FDB562EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="F_STF_TYPE_CHK" directorySegmentName="seg_0" id="45A38C1F-28BD-F244-EACD-7CC4E90ACBBF">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>C2675FC9-106A-544D-D110-AF66912EB402</importedID>
+<rule><![CDATA[STAFF_TYPE IN ('ORDER_TAKER', 'MANAGER')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

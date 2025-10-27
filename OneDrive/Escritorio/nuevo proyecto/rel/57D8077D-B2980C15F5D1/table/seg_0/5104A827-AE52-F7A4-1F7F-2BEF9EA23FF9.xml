@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5104A827-AE52-F7A4-1F7F-2BEF9EA23FF9" name="F_HISTORIAL_PUESTOS">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:55 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>368C7BF2-764C-8272-8BA2-20893417E51A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HISTORIAL_ID" id="A509B376-F263-AF68-408F-3067C715C6CE">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>58E80CE2-4538-9E5E-5795-43FEFB4C49F2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C6BABAF9-91F0-3275-8974-57B14FD037EB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STAFF_ID" id="5FF2BD5B-7822-F709-1A09-EBA9B63B3355">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>D4A768E7-5896-B256-8D57-185493C4B6A1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C6BABAF9-91F0-3275-8974-57B14FD037EB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="935DBEAB-9B7A-6AB0-A28F-CD17E62C4AFA" referredColumn="A745F91A-650B-F705-BEAB-43CCED341012"/>
+</associations>
+</Column>
+<Column name="ROL_ID" id="347AC8B0-55EC-67AE-A605-9E86A1802A36">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>F154F211-FDBD-F81B-FADD-BD48DA35BF53</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C6BABAF9-91F0-3275-8974-57B14FD037EB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="138280F6-4FD1-74B3-3A9B-C084476FFC3A" referredColumn="EDDBBDF2-65ED-5D61-B252-30F12B5E0E27"/>
+</associations>
+</Column>
+<Column name="SUCURSAL_ID" id="7F926EC7-4C61-A06A-62E7-7D699019772F">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>28BB49C2-FF0A-2916-E289-912DBDE7EE9A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C6BABAF9-91F0-3275-8974-57B14FD037EB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9E15D3E-8E24-1F3C-5102-5DB701DB9832" referredColumn="CA71E766-F355-F140-1927-4816780408E4"/>
+</associations>
+</Column>
+<Column name="FECHA_INICIO" id="700C54D1-678A-A994-4976-1BC8E0BFAB31">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>BAAFB38F-BE33-8BB8-E76B-AB3952453CCB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>F81763B0-B85F-18B6-2A16-7F23DD6CCF5F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="725CD98F-87A9-C0BE-1C82-A658EB4E9524">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>1C36E9B8-3DDF-61F5-287E-932CA697B3FB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>F81763B0-B85F-18B6-2A16-7F23DD6CCF5F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D312C5D7-17A1-9CF2-9221-5547C26657E7" name="F_HISTORIAL_PUESTOS_PK">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>FE4DC153-9E61-1437-401D-89C9EA118992</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A509B376-F263-AF68-408F-3067C715C6CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A22AC93F-CF1D-1322-877B-385A0E94E75D" name="fk_historial_roles">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="347AC8B0-55EC-67AE-A605-9E86A1802A36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01CE979C-EBD9-8088-CB12-3C24C0F3959E" name="fk_historial_staff">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FF2BD5B-7822-F709-1A09-EBA9B63B3355"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5896256F-948F-CAEF-8582-04AB8581AFDD" name="fk_historial_sucursal">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F926EC7-4C61-A06A-62E7-7D699019772F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

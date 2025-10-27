@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="deepseek_sql_20250922_220aae" id="725D0D05-01A3-77F3-80B8-11AA27BA2C59" mainViewID="78BF5CC8-5E5B-548D-6D0E-D9A5B3652B82">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:45 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>deepseek_sql_20250922_220aae.sql</fileName>
+<pathName>C:\Users\Gonza\Downloads</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

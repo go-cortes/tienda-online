@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="059AC23E-CE86-ACD8-D2F1-EDD7BCBF6F89" containerWithKeyObject="BFF8F72A-C992-3410-8BF3-2706A88F9C71" localFKIndex="5F9F01C9-A297-FA54-0EE3-55B0DCB4ADEA" name="F_FIM_REGULAR_CODE_FK">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>EB7865A3-6EAD-D4D3-C5DF-5C3AC11444FB</importedID>
+<referredTableLongName>F_REGULAR_MENUS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9265680A-20F6-EA8D-0A1F-7909A72BAFCD</referredTableID>
+<keyObject>2A7CD756-D0BD-1402-F150-4159864679D3</keyObject>
+<referredKeyID>2A7CD756-D0BD-1402-F150-4159864679D3</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

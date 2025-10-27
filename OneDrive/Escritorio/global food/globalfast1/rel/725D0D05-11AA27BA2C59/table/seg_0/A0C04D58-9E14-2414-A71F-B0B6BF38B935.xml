@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0C04D58-9E14-2414-A71F-B0B6BF38B935" name="F_SUCURSALES">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>2C07F284-7DD0-BF68-355F-40C049761A44</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUCURSAL_ID" id="259B27B8-2C25-1FC1-7BB4-9BB8B238CF70">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>04BAD66B-41B6-565D-A68A-75B13D99F4D0</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="E34BDCFD-12BD-1905-3E61-ECB5E59929C5">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>1E739BA3-AB67-FC9C-A391-CF3D331370DF</importedID>
+<use>0</use>
+<domain>789C6508-1EE4-BD75-B96C-D080F6167C2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_SUC_NOMBRE_NN</notNullConstraintName>
+</Column>
+<Column name="DIRECCION" id="5E0F2DAA-F2CF-59B5-D8BF-A862C6C3158A">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>0DF1F11A-FB30-4040-B8C6-70D6A365B754</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>827A68D7-2170-40A3-3248-B66A225B5255</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUDAD" id="BCB1DF8C-F6F8-1419-B879-0F728F3148F1">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>7DCCC743-2B77-C902-A6B5-031138BFACEB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>789C6508-1EE4-BD75-B96C-D080F6167C2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GERENTE_ID" id="F2CC1E91-8D7A-7588-F466-F9A28C5AFC01">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Managed by]]></commentInRDBMS>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>439C5B72-A36B-3232-5DFE-8BB9216BCAFC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B15B2A79-AFE0-3363-3447-4541F45C5F4C" referredColumn="9AFB269F-E435-A015-224C-C698D4963456"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BE0E9F6-3C1D-F211-2265-E47F8D3FCBA2" name="F_SUC_ID_PK">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>29078A81-AA1F-F9FC-772B-E7A6D8CCED77</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="259B27B8-2C25-1FC1-7BB4-9BB8B238CF70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A5A7ECD-D193-B8F9-3AE3-EB995B30D420" name="F_SUC_GERENTE_ID_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2CC1E91-8D7A-7588-F466-F9A28C5AFC01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

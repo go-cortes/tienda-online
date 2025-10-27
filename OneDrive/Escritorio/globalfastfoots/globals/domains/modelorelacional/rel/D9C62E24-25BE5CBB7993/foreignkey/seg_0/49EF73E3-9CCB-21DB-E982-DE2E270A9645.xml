@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="49EF73E3-9CCB-21DB-E982-DE2E270A9645" containerWithKeyObject="1D414CBA-5613-F1CC-C072-644868457249" localFKIndex="E7A65116-7DD1-C1BF-034B-0B6C257296ED" name="F_SAT_SHIFT_CODE_FK">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:44 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>45542448-5B60-0F49-BA92-B293DFA03D18</importedID>
+<referredTableLongName>F_SHIFTS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>19809A25-BDC6-30DC-C5FC-221B15BC1D88</referredTableID>
+<keyObject>3EC8A03F-0B68-FA68-DE81-CD16C032EEDC</keyObject>
+<referredKeyID>3EC8A03F-0B68-FA68-DE81-CD16C032EEDC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

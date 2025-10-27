@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="F_HP_ROL_ID_FK" directorySegmentName="seg_0" id="22CB9067-929E-A2E2-A491-0DC7111B7252">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:56 UTC</createdTime>
+<generatorID>06D1ECB9-F5F4-103B-9766-BDDB2EE50236</generatorID>
+<ownerDesignName>globalfast1</ownerDesignName>
+<engineerTo>
+<item key="BD80E8ED-172E-0FCE-39FC-2B3391FF742D" value="true"/>
+<item key="725D0D05-01A3-77F3-80B8-11AA27BA2C59" value="true"/>
+</engineerTo>
+<sourcePk>5F09AC22-F9F0-0ADD-25F3-719DE33F2620</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E4E7CE9A-B883-B5C6-DDF3-4955183FAC06</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7EF43234-E6AD-4279-9BD7-448B373C1D5F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

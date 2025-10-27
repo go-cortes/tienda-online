@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="18887F2B-9EC5-82D5-996B-9072C7CEBA67" containerWithKeyObject="A7004017-37EB-CFBC-E8C0-2A2DC1749BF4" localFKIndex="0A4F212B-8C9D-287C-F85F-CC78FBF1C42D" name="fk_orderline_food">
+<sourceDDLFile>Modelo_ER_Actualizado (1).sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-19 22:26:56 UTC</createdTime>
+<ownerDesignName>nuevo proyecto</ownerDesignName>
+<importedID>D0BF1606-2F9D-C595-F998-A87B2A157CBC</importedID>
+<referredTableLongName>FOOD_ITEM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F77C4866-2152-EDF9-0A28-74E49FCD9638</referredTableID>
+<keyObject>15F439D5-7E02-1F37-E9A6-82283066AA21</keyObject>
+<referredKeyID>15F439D5-7E02-1F37-E9A6-82283066AA21</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>FOOD_ITEM_NUMBER</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

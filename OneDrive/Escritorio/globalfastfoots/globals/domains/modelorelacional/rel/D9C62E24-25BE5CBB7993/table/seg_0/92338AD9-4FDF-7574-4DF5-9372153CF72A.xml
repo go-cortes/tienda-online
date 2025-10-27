@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92338AD9-4FDF-7574-4DF5-9372153CF72A" name="F_SUCURSALES">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>B27CC279-D0E2-7060-2443-6F01F3AA56FB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUCURSAL_ID" id="C2A2C2B4-A6F2-538C-09D4-A40A2ABA2418">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>7E8622CE-4B54-3FEF-FC8B-C98CA5EC08A7</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="73D24DFD-F173-794F-2F12-68EB933FA5EB">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>4F4B5DF9-7789-730E-0B53-0FEFDF5BB143</importedID>
+<use>0</use>
+<domain>789C6508-1EE4-BD75-B96C-D080F6167C2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_SUC_NOMBRE_NN</notNullConstraintName>
+</Column>
+<Column name="DIRECCION" id="8FBC0B67-7D35-1C06-6C58-AFE41F309690">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>82F8E02A-E9B3-34BF-C742-E1E23E522030</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>827A68D7-2170-40A3-3248-B66A225B5255</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUDAD" id="097A6A0D-90F8-A2D4-F01F-EBCF20EA190D">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>44FB3675-6641-24F1-BC65-A063CEA78ADF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>789C6508-1EE4-BD75-B96C-D080F6167C2F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GERENTE_ID" id="81F95816-AD2A-68DF-D56D-238BAC86BCFF">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Managed by]]></commentInRDBMS>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>22A5E389-E31A-941D-0B4A-E4DD5411DD27</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="753D65FF-9A21-946A-C584-BA517CC84D6A" referredColumn="DAF13AF1-C59A-7492-E8F8-5C5E66309853"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22C80E6D-8AD3-9DF8-735D-672EC4FC218B" name="F_SUC_ID_PK">
+<sourceDDLFile>Relacional.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:43 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<importedID>3D23BEA2-993F-D5BF-A117-96CD63BDD8DA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2A2C2B4-A6F2-538C-09D4-A40A2ABA2418"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AF059F8-4D27-72BB-B807-E96EB9B19498" name="F_SUC_GERENTE_ID_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 03:50:44 UTC</createdTime>
+<ownerDesignName>modelorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81F95816-AD2A-68DF-D56D-238BAC86BCFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

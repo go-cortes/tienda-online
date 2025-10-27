@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91F8751A-CF0E-DBDA-A03E-BC32788B3BCC" name="F_SHIFT_ASSIGNMENTS">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>CEA5A5DA-DB9F-43F4-07F7-AC8848FAA064</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SHIFT_CODE" id="BB95918B-3735-A78B-E0AC-9F97D96FBB14">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[For]]></commentInRDBMS>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>D867F325-85D1-FA9D-6FC4-75070393CBBC</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00ADBE54-19CA-E02D-7009-2EA46D7C0C25" referredColumn="6AB70F69-B864-36D4-836F-7BC4F68EBFFA"/>
+</associations>
+</Column>
+<Column name="STAFF_ID" id="830F5C72-7B96-2387-055D-49E85B901A02">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Works on]]></commentInRDBMS>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>8DA4C893-BEF5-9F3C-5578-6B3151D802E0</importedID>
+<use>0</use>
+<domain>92E1D09B-1500-1E37-4479-27FD28E76291</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC72D79B-AF19-7C47-ADF9-7A39E4EFF945" referredColumn="9AFB269F-E435-A015-224C-C698D4963456"/>
+</associations>
+</Column>
+<Column name="SHIFT_ASSIGN_DATE" id="C9B57561-7FAF-B224-8FB4-919D00786C55">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>145C5F24-1934-0B24-2BFE-E875EEEB9A73</importedID>
+<use>0</use>
+<domain>ACD89DAC-48CD-59C5-85E4-1670DE020F07</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>F_SAT_SHIFT_ASSIGN_DATE_NN</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="33FCB3A4-6C78-8D8E-C9CD-E7CC05B53453" name="F_SAT_PK">
+<sourceDDLFile>deepseek_sql_20250922_220aae.sql</sourceDDLFile>
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<importedID>F9F0B4AC-E551-59C6-2579-012E1F94D85E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB95918B-3735-A78B-E0AC-9F97D96FBB14"/>
+<colUsage columnID="830F5C72-7B96-2387-055D-49E85B901A02"/>
+<colUsage columnID="C9B57561-7FAF-B224-8FB4-919D00786C55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D563213-B241-5FF6-61B0-F9B7CEBA891F" name="F_SAT_SHIFT_CODE_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB95918B-3735-A78B-E0AC-9F97D96FBB14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC12D00E-4207-BBAD-AD09-1F778E3A5FE4" name="F_SAT_STAFF_ID_FK">
+<createdBy>Gonza</createdBy>
+<createdTime>2025-09-22 00:43:51 UTC</createdTime>
+<ownerDesignName>globalfast1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="830F5C72-7B96-2387-055D-49E85B901A02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
