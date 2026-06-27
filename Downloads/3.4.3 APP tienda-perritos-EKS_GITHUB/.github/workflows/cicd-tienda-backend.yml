@@ -1,0 +1,68 @@
+name: CI/CD Tienda Perritos - Backend
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "backend/**"
+
+env:
+  ECR_REGISTRY: 277070702488.dkr.ecr.us-east-1.amazonaws.com
+  ECR_REPO_BACKEND: tienda-backend
+  EKS_NAMESPACE: tienda
+
+jobs:
+  build-push-deploy-backend:
+    name: Build, Push y Deploy Backend
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Configurar credenciales AWS
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }}
+          aws-region: us-east-1
+
+      - name: Login en Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Definir tag de imagen
+        run: echo "IMAGE_TAG=${GITHUB_SHA::7}" >> $GITHUB_ENV
+
+      - name: Build imagen Backend y push a ECR
+        run: |
+          cd backend
+          docker build -t $ECR_REGISTRY/$ECR_REPO_BACKEND:$IMAGE_TAG .
+          docker push $ECR_REGISTRY/$ECR_REPO_BACKEND:$IMAGE_TAG
+          echo "✅ Backend image pushed: $ECR_REGISTRY/$ECR_REPO_BACKEND:$IMAGE_TAG"
+
+      - name: Instalar kubectl
+        uses: azure/setup-kubectl@v4
+        with:
+          version: v1.29.0
+
+      - name: Conectar al cluster EKS
+        run: |
+          aws eks update-kubeconfig --region us-east-1 --name tienda
+          echo "✅ Conectado a tienda"
+
+      - name: Deploy Backend en EKS
+        run: |
+          kubectl apply -f k8s/backend-deployment.yaml -n $EKS_NAMESPACE
+          kubectl apply -f k8s/backend-service.yaml -n $EKS_NAMESPACE
+          kubectl set image deployment/tienda-backend \
+            backend=$ECR_REGISTRY/$ECR_REPO_BACKEND:$IMAGE_TAG \
+            -n $EKS_NAMESPACE
+          kubectl rollout status deployment/tienda-backend -n $EKS_NAMESPACE --timeout=120s
+          echo "✅ Backend actualizado - tag: $IMAGE_TAG"
+
+      - name: Ver estado pods backend
+        run: |
+          kubectl get pods -n $EKS_NAMESPACE -l app=tienda-backend
+          kubectl get svc tienda-backend -n $EKS_NAMESPACE
