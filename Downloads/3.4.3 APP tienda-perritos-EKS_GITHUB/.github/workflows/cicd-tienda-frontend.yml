@@ -49,8 +49,8 @@ jobs:
 
       - name: Conectar al cluster EKS
         run: |
-          aws eks update-kubeconfig --region us-east-1 --name tienda
-          echo "✅ Conectado a tienda"
+          aws eks update-kubeconfig --region us-east-1 --name tienda2
+          echo "✅ Conectado a tienda2"
 
       - name: Deploy Frontend en EKS
         run: |
